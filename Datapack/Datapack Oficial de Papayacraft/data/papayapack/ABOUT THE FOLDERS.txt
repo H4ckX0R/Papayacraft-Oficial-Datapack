@@ -1,0 +1,51 @@
+## ADVANCEMENTS ##
+
+	-Place your custom advancements in this folder ( needs to be a .json file to work )
+	-Advancements can be used for making your own advancements ( kinda obvious )
+	or you could use the advancements to run functions when the player gets it
+	( and you could take the advancement from them in the function that it runs )
+	-You can use online generators to generate theese files automatically for you:
+	https://misode.github.io/advancement/
+
+## FUNCTIONS ##
+
+	-This is the folder that lets you use in-game commands by making it into a .mcfunction file.
+	-To run the function you put in here you simply type "/function yournamespace:yourfunction".
+	( unless it's a load and/ or tick function file )
+	-This can be automated by either putting it in tick.mcfunction or making your own loop by running itself by delay or instantly
+
+## LOOT TABLES ##
+
+	-Place your custom loot tables in this folder ( needs to be a .json file to work )
+	-Loot tables can be used for changing mob drops or adding on to them, changing chest loots or adding on to them
+	or randomizers ( needs to be used with functions to randomize )
+	-You can use online generators to generate theese files automatically for you:
+	https://misode.github.io/loot-table/
+
+## PREDICATES ##
+
+	-Place your custom predicates in this folder ( needs to be a .json file to work )
+	-Predicates can be used for various amount of stuff;
+	-You can detect if a player is sneaking without having to use scoreboards
+	( yes you can do it with scoreboards to detect how long they have been sneaking but it's more practical to use predicates )
+	-You can make a predicate that runs on a random chance using "/execute if predicate" or "/execute unless predicate" ( unless = if NOT )
+	-You can use online generators to generate theese files automatically for you:
+	https://misode.github.io/predicate/
+
+## RECIPES ##
+
+	-Place  your custom recipes in this folder
+	-You can make your own recipes to craft already existing items
+	or you can make your own special item using a knowledge book 
+	-There are many tutorials explaining how to do this:
+	https://www.youtube.com/watch?v=Pt7y6PNP6KY
+	-You can use online generators to generate theese files automatically for you:
+	https://crafting.thedestruc7i0n.ca/
+
+## STRUCTURES ##
+
+	-Place your custom structures in this folder ( needs to be a .nbt file to work )
+	-You can create custom structures using the structure block
+	-When you save your structure you can find the structure file in "yourworld/generated/minecraft/structures/yourstructure"
+
+	
