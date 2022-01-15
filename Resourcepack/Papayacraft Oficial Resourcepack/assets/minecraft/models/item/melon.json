@@ -1,0 +1,13 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+     "layer0": "item/melon"
+    },
+   
+    "overrides": [
+     { "predicate": {"custom_model_data": 24}, "model": "item/papaya"}
+   
+    ]
+   
+    
+   }
