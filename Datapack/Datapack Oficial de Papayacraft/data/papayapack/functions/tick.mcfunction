@@ -11,4 +11,4 @@ execute as @e[tag=papayacoin] at @s run tag @s remove papayacoin
 
 ### Bloque tronco papaya ###
 execute as @e[type=minecraft:item_frame,tag=troncopapaya,tag=!colocado] at @s run function papayapack:troncopapaya/place
-execute as @e[type=item_frame, tag=troncopapaya, tag=colocado] at @s unless block ~ ~ ~ minecraft:stripped_spruce_log run function papayapack:troncopapaya/remove
+execute as @e[type=item_frame, tag=troncopapaya, tag=colocado] at @s unless block ~ ~ ~ minecraft:brown_stained_glass run function papayapack:troncopapaya/remove

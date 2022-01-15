@@ -1,8 +1,8 @@
 {
 	"textures": {
-		"0": "custom/acacia_log",
-		"1": "custom/acacia_log_top",
-		"particle": "custom/acacia_log"
+		"0": "custom/troncopapaya_log",
+		"1": "custom/troncopapaya_log_top",
+		"particle": "custom/troncopapaya_log"
 	},
 	"elements": [
 		{
