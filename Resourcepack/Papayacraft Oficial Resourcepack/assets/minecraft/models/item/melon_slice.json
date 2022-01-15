@@ -1,7 +1,7 @@
 {
     "parent": "item/handheld",
     "textures": {
-     "layer0": "item/melon"
+     "layer0": "item/melon_slice"
     },
    
     "overrides": [
