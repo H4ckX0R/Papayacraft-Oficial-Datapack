@@ -8,3 +8,7 @@ execute as @e[tag=papayacoin] at @s run kill @e[type=item,nbt={Item:{id:"minecra
 execute as @e[tag=papayacoin] at @s run kill @e[type=item,nbt={Item:{id:"minecraft:gold_ingot",Count:5b}},sort=nearest,limit=1]
 execute as @e[tag=papayacoin] at @s run kill @e[type=item,nbt={Item:{id:"minecraft:netherite_scrap",Count:1b}},sort=nearest,limit=1]
 execute as @e[tag=papayacoin] at @s run tag @s remove papayacoin
+
+### Bloque tronco papaya ###
+execute as @e[type=minecraft:item_frame,tag=troncopapaya,tag=!colocado] at @s run function papayapack:troncopapaya/place
+execute as @e[type=item_frame, tag=troncopapaya, tag=colocado] at @s unless block ~ ~ ~ minecraft:stripped_spruce_log run function papayapack:troncopapaya/remove

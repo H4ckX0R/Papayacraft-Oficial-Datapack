@@ -1,0 +1,1 @@
+give @s melon_slice{display:{Name:'{"text":"Papaya","color":"gold","bold":true}'},HideFlags:1,CustomModelData:24,papaya:24b} 64
