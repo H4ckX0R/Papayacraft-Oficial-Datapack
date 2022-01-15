@@ -1,0 +1,13 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+     "layer0": "minecraft:block/birch_sapling"
+    },
+   
+    "overrides": [
+     { "predicate": {"custom_model_data": 3}, "model": "item/brote_papaya"}
+   
+    ]
+   
+    
+   }
