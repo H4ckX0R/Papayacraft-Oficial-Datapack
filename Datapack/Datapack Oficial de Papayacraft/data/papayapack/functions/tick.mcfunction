@@ -1,5 +1,5 @@
 ### THIS FUNCTION RUNS ONCE FOR EVERY IN-GAME TICK (20 TICK = 1 SECOND) ###
-title @a actionbar {"text":"El datapack está funcionando."}
+###title @a actionbar {"text":"El datapack está funcionando."}
 
 
 ### Crafteo PapayaCoin ###
@@ -10,5 +10,5 @@ execute as @e[tag=papayacoin] at @s run kill @e[type=item,nbt={Item:{id:"minecra
 execute as @e[tag=papayacoin] at @s run tag @s remove papayacoin
 
 ### Bloque tronco papaya ###
-execute as @e[type=minecraft:item_frame,tag=troncopapaya,tag=!colocado] at @s run function papayapack:troncopapaya/place
-execute as @e[type=item_frame, tag=troncopapaya, tag=colocado] at @s unless block ~ ~ ~ minecraft:brown_stained_glass run function papayapack:troncopapaya/remove
+execute as @e[type=minecraft:item_frame, tag=troncopapaya] at @s run function papayapack:troncopapaya/place
+execute as @e[type=minecraft:armor_stand, tag=troncopapaya] at @s unless block ~ ~ ~ minecraft:stripped_spruce_log run function papayapack:troncopapaya/remove
